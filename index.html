@@ -12,6 +12,18 @@
 		img:is([sizes="auto" i], [sizes^="auto," i]) {
 			contain-intrinsic-size: 3000px 1500px
 		}
+		
+		.fade-in-up {
+			opacity: 0;
+			transform: translateY(30px);
+			transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+			will-change: opacity, transform;
+		}
+
+		.fade-in-up.visible {
+			opacity: 1;
+			transform: none;
+		}
 	</style>
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
 	<link rel="alternate" type="application/rss+xml" title="Portfolio &raquo; Feed"
@@ -3590,7 +3602,7 @@ flexibility(document.documentElement);
 			class="site-header header-main-layout-1 ast-primary-menu-enabled ast-hide-custom-menu-mobile ast-builder-menu-toggle-icon ast-mobile-header-inline"
 			id="masthead" itemtype="https://schema.org/WPHeader" itemscope="itemscope" itemid="#masthead">
 			<div id="ast-desktop-header" data-toggle-type="dropdown">
-				<div class="ast-main-header-wrap main-header-bar-wrap ">
+				<div class="ast-main-header-wrap main-header-bar-wrap fade-in-up ">
 					<div class="ast-primary-header-bar ast-primary-header main-header-bar site-header-focus-item"
 						data-section="section-primary-header-builder">
 						<div class="site-primary-header-wrap ast-builder-grid-row-container site-header-focus-item ast-container"
@@ -3666,7 +3678,7 @@ flexibility(document.documentElement);
 				</div>
 			</div> <!-- Main Header Bar Wrap -->
 			<div id="ast-mobile-header" class="ast-mobile-header-wrap " data-type="dropdown">
-				<div class="ast-main-header-wrap main-header-bar-wrap">
+				<div class="ast-main-header-wrap main-header-bar-wrap fade-in-up">
 					<div class="ast-primary-header-bar ast-primary-header main-header-bar site-primary-header-wrap site-header-focus-item ast-builder-grid-row-layout-default ast-builder-grid-row-tablet-layout-default ast-builder-grid-row-mobile-layout-default"
 						data-section="section-primary-header-builder">
 						<div class="ast-builder-grid-row ast-builder-grid-row-has-sides ast-builder-grid-row-no-center">
@@ -3784,7 +3796,7 @@ flexibility(document.documentElement);
 
 								<div data-elementor-type="wp-page" data-elementor-id="267"
 									class="elementor elementor-267">
-									<div class="elementor-element elementor-element-fe2a2bd e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-fe2a2bd e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="fe2a2bd" data-element_type="container"
 										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 										<div class="e-con-inner">
@@ -3876,7 +3888,7 @@ flexibility(document.documentElement);
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-711f06a e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-711f06a e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="711f06a" data-element_type="container">
 										<div class="e-con-inner">
 											<div class="elementor-element elementor-element-d71ef20 e-con-full e-flex e-con e-child"
@@ -3979,7 +3991,7 @@ flexibility(document.documentElement);
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-4be6fe0 e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-4be6fe0 e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="4be6fe0" data-element_type="container"
 										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 										<div class="e-con-inner">
@@ -4183,7 +4195,7 @@ flexibility(document.documentElement);
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-fd6010e e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-fd6010e e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="fd6010e" data-element_type="container"
 										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 										<div class="e-con-inner">
@@ -4192,7 +4204,7 @@ flexibility(document.documentElement);
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-f9069ed e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-f9069ed e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="f9069ed" data-element_type="container">
 										<div class="e-con-inner">
 											<div class="elementor-element elementor-element-2eb253f e-con-full e-flex e-con e-child"
@@ -4355,7 +4367,7 @@ flexibility(document.documentElement);
 											</div>
 										</div>
 									</div>
-									<div class="elementor-element elementor-element-32270e5 e-flex e-con-boxed e-con e-parent"
+									<div class="elementor-element elementor-element-32270e5 e-flex e-con-boxed e-con e-parent fade-in-up"
 										data-id="32270e5" data-element_type="container"
 										data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
 										<div class="e-con-inner">
